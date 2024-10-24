@@ -13,7 +13,7 @@ def Connect_Server():
     secret_key=''
     username = ''
     pwd = ''
-    smartApi = SmartConnect(api_key)#'GGWZRKYY4MSIBZTGQNIA4QSNSM'
+    smartApi = SmartConnect(api_key)#''
     try:
         token = ''
         totp = pyotp.TOTP(token).now()
